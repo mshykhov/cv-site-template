@@ -4,6 +4,8 @@ A clean, responsive CV website built with Next.js, TypeScript, and Tailwind CSS.
 
 The included profile is fictional sample content.
 
+Live example: [mshykhov.com](https://mshykhov.com) uses this layout with a real profile. This template includes only the fictional sample.
+
 ## Customize it
 
 Edit `src/data/resume.ts`. This one file controls the page title, metadata, name, contacts, summary, experience, skills, favicon initials, social preview, and source link.
@@ -33,6 +35,13 @@ npm run build
 ```
 
 The static site is written to `out/` and can be deployed to any static hosting service.
+
+## Publish for free
+
+- [Cloudflare Pages](docs/cloudflare-pages.md): free `pages.dev` address, or connect a domain you own.
+- [GitHub Pages](docs/github-pages.md): free `USERNAME.github.io` address from a public repository.
+
+Hosting can be free on either service. A custom domain is optional and has a separate annual registration fee.
 
 ## License
 
